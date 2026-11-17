@@ -1,13 +1,11 @@
-//variáveis
-
-
 fn main() {
-    let mut x: i32 = 10; 
-    let y: u32 = 8; //unsigned
+    let a = 1;
+    let b = 2;
 
-    let z: f64 = 2.3412;
+    let result = sum(a, b);
+    println!("A soma de: {a} + {b} é {result}");
+}
 
-    println!("x é{x} e y é{y}");
-    let x = 11;
-    println!("{y}");
+fn sum(a: i32, b: i32) -> i32 {
+    return a + b;
 }
